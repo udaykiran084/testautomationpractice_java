@@ -53,6 +53,7 @@ public class Basetest {
 		
 		p.paginationtable();
 		
+		p.dynamic_button();
 		
 
 	}

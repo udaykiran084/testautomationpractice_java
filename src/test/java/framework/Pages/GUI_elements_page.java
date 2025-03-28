@@ -108,7 +108,16 @@ public class GUI_elements_page {
 	
 	@FindBy(xpath="//h2[text()='Pagination Web Table']") public WebElement   Pagination_table;
 	
-	@FindBy(xpath="//table[@id='productTable']//tr") List<WebElement> s  ;
+	@FindBy(xpath="//table[@id='productTable']//tr") List<WebElement> s;
+	
+	@FindBy(xpath="//h2[text()='Dynamic Button']")  WebElement   dymicbutton;
+	
+	public void dynamic_button() {
+		
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView();", dymicbutton);
+		
+	}
 	
 	
 	
