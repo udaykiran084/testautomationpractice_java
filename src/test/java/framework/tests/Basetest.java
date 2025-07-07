@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import framework.Pages.GUI_elements_page;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-@Test
+
 public class Basetest {
 
 	public static WebDriver driver;
